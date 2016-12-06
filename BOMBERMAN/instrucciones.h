@@ -15,6 +15,9 @@ public:
     explicit Instrucciones(QWidget *parent = 0);
     ~Instrucciones();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Instrucciones *ui;
 };

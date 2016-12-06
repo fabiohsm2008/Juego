@@ -1,5 +1,6 @@
 #ifndef DIFICULTAD_H
 #define DIFICULTAD_H
+#include "game.h"
 
 #include <QWidget>
 
@@ -14,6 +15,9 @@ class Dificultad : public QWidget
 public:
     explicit Dificultad(QWidget *parent = 0);
     ~Dificultad();
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::Dificultad *ui;

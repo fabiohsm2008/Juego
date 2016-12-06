@@ -19,10 +19,10 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>280</x>
      <y>40</y>
-     <width>441</width>
-     <height>121</height>
+     <width>501</width>
+     <height>151</height>
     </rect>
    </property>
    <property name="font">
@@ -38,11 +38,17 @@
   <widget class="QRadioButton" name="radioButton">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>304</x>
      <y>250</y>
-     <width>95</width>
-     <height>20</height>
+     <width>161</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Facil</string>
@@ -51,11 +57,17 @@
   <widget class="QRadioButton" name="radioButton_2">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>304</x>
      <y>360</y>
-     <width>95</width>
-     <height>20</height>
+     <width>161</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Medio</string>
@@ -64,14 +76,39 @@
   <widget class="QRadioButton" name="radioButton_3">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>490</y>
-     <width>95</width>
-     <height>20</height>
+     <x>304</x>
+     <y>470</y>
+     <width>161</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Dificil</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>560</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Continuar</string>
    </property>
   </widget>
  </widget>

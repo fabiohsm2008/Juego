@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Camera Roll/1.png</file>
+        <file>Camera Roll/bomberman.png</file>
+    </qresource>
+</RCC>

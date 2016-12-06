@@ -13,3 +13,8 @@ Instrucciones::~Instrucciones()
 {
     delete ui;
 }
+
+void Instrucciones::on_pushButton_clicked()
+{
+    close();
+}

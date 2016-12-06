@@ -1,6 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include <QMediaPlayer>
 #include <QMainWindow>
 
 namespace Ui {
@@ -17,8 +18,8 @@ public:
 
 private slots:
     void on_pushButton_3_clicked();
-
     void on_Start_clicked();
+    void detener();
 
 private:
     Ui::GAME *ui;

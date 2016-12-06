@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia multimediawidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,15 +15,28 @@ TEMPLATE = app
 SOURCES += main.cpp\
         game.cpp \
     instrucciones.cpp \
-    dificultad.cpp
+    start.cpp \
+    player.cpp \
+    bomba.cpp \
+    win.cpp \
+    win2.cpp \
+    empate.cpp
 
 HEADERS  += game.h \
     instrucciones.h \
-    dificultad.h
+    start.h \
+    player.h \
+    bomba.h \
+    win.h \
+    win2.h \
+    empate.h
 
 FORMS    += game.ui \
     instrucciones.ui \
-    dificultad.ui
+    start.ui \
+    win.ui \
+    win2.ui \
+    empate.ui
 
 RESOURCES += \
     imagen.qrc
